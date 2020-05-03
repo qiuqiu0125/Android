@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InaccountQueryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ListView
+    android:id="@+id/lv_query_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/llbtns_below"></ListView>
+
+    <LinearLayout
+        android:id="@+id/llbtns_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/delete_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除选中items"/>
+        <Button
+            android:id="@+id/update_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新选中item"/>
+        <Button
+            android:id="@+id/deletall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除所有ITEM"/>
+    </LinearLayout>
+
+</RelativeLayout>

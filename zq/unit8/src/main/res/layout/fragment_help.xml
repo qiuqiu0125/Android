@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HelpFragment"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="   个人理财通\n
+         从此告别死工资 , 安心之选 , 货币基金收益稳居前茅 , 随时存取 , 官方平台 , 累计已带来超80亿收益 , 低风险,收益稳定 , 支持网页 , 微信,手机QQ" />
+
+</FrameLayout>

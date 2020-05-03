@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intype">
+        <item>工资</item>
+        <item>兼职</item>
+        <item>股票</item>
+        <item>基金</item>
+        <item>分红</item>
+        <item>利息</item>
+        <item>奖金</item>
+    </string-array>
+    <string-array name="outype">
+        <item>饮食</item>
+        <item>服装</item>
+        <item>日用</item>
+        <item>礼品</item>
+    </string-array>
+
+</resources>
